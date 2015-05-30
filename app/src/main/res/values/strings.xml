@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Nanodegree Portfolio</string>
+
+    <string name="hello_world">My Nanodegree Portfolio</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- activity_main.xml button text -->
+    <string name="first_button">Spotify Streamer</string>
+    <string name="second_button">Scores App</string>
+    <string name="third_button">Library App</string>
+    <string name="fourth_button">Build It Bigger</string>
+    <string name="fifth_button">XYZ Reader</string>
+    <string name="sixth_button">Capstone: My Own App</string>
+
+    <!-- activity_main.xml toast messages -->
+    <string name="first_toast">This button will launch my Spotify Streamer!</string>
+    <string name="second_toast">This button will launch my Scores app!</string>
+    <string name="third_toast">This button will launch my Library app!</string>
+    <string name="fourth_toast">This button will launch my Build It Bigger app!</string>
+    <string name="fifth_toast">This button will launch my XYZ Reader app!</string>
+    <string name="sixth_toast">This button will launch my Capstone app!</string>
+</resources>
