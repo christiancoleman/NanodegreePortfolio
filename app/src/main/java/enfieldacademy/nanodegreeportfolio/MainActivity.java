@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
+    private Toast mToast;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,26 +41,50 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void openFirstApp(View view){
-        Toast.makeText(this, R.string.first_toast, Toast.LENGTH_SHORT).show();
+        if(mToast != null){
+            mToast.cancel();
+        }
+        mToast = Toast.makeText(this, R.string.first_toast, Toast.LENGTH_SHORT);
+        mToast.show();
     }
 
     public void openSecondApp(View view){
-        Toast.makeText(this, R.string.second_toast, Toast.LENGTH_SHORT).show();
+        if(mToast != null){
+            mToast.cancel();
+        }
+        mToast = Toast.makeText(this, R.string.second_toast, Toast.LENGTH_SHORT);
+        mToast.show();
     }
 
     public void openThirdApp(View view){
-        Toast.makeText(this, R.string.third_toast, Toast.LENGTH_SHORT).show();
+        if(mToast != null){
+            mToast.cancel();
+        }
+        mToast = Toast.makeText(this, R.string.third_toast, Toast.LENGTH_SHORT);
+        mToast.show();
     }
 
     public void openFourthApp(View view){
-        Toast.makeText(this, R.string.fourth_toast, Toast.LENGTH_SHORT).show();
+        if(mToast != null){
+            mToast.cancel();
+        }
+        mToast = Toast.makeText(this, R.string.fourth_toast, Toast.LENGTH_SHORT);
+        mToast.show();
     }
 
     public void openFifthApp(View view){
-        Toast.makeText(this, R.string.fifth_toast, Toast.LENGTH_SHORT).show();
+        if(mToast != null){
+            mToast.cancel();
+        }
+        mToast = Toast.makeText(this, R.string.fifth_toast, Toast.LENGTH_SHORT);
+        mToast.show();
     }
 
     public void openSixthApp(View view){
-        Toast.makeText(this, R.string.sixth_toast, Toast.LENGTH_SHORT).show();
+        if(mToast != null){
+            mToast.cancel();
+        }
+        mToast = Toast.makeText(this, R.string.sixth_toast, Toast.LENGTH_SHORT);
+        mToast.show();
     }
 }
